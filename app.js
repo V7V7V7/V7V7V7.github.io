@@ -21,14 +21,11 @@ $(function() {
     let slider = $("#reviewsSlide");
 
         slider.slick({
-            infinite: true,
-            slidesToShow: 1,
-            slidesToScroll:1,
-            fade:true,
+  slidesToShow: 1,
+  slidesToScroll: 2,
+  autoplay: true,
+  autoplaySpeed: 5000,
             arrows:false,
-            autoplay:true,
-            autoplaySpeed: 3000
 
 });
-
 });
