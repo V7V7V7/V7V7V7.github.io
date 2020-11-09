@@ -86,6 +86,7 @@ p {
     text-decoration: none;
     text-align: center;
     font-size: 90px;
+    font-weight: bold;
     color: #00fc3a;
     border: none;
   animation: blink 1000ms alternate infinite;
@@ -148,7 +149,7 @@ p {
 .nav {
     display: flex;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 800;
     /*text-transform: uppercase;*/
 }
 
@@ -156,8 +157,7 @@ p {
     margin-left: 50px;
     color: white;
     text-decoration: none;
-    opacity: .75;
-    transition: .1s linear;
+
 }
 
 .nav__link:first-child {
@@ -253,16 +253,15 @@ p {
 }
 
 .features__text {
-    font-size: 13px;
-    line-height: 1.5;
+    font-size: 16px;
+    line-height: 1.3;
     color: #000203;
-
 }
 
 /*======= works ========*/
 
 .works {
-    padding-top: 100px;
+    padding-top: 150px;
     display: flex;
     flex-wrap: wrap;
 
@@ -371,11 +370,20 @@ text-align: center;
 
 .footer__text {
     color: white;
-
+    line-height: 1.2;
+}
+.footer__number {
+    padding-bottom: 10px;
+     font-size: 18px;
+    font-weight: 600;
+    line-height: 0.7;
 }
 /*=========Media===========*/
 
 @media (max-width: 880px) {
+    .intro {
+    height: 650px;
+}
     .works {
         padding-top: 50px;
     }
@@ -388,6 +396,9 @@ text-align: center;
     .features__item{
         height: 200px;
     }
+    .features__text {
+    font-size: 13px;
+}
     .intro__title_p {
         font-size: 45px;
     }
@@ -409,11 +420,14 @@ text-align: center;
     }
     .footer__text {
         font-size: 12px;
+        line-height: 1.2;
     }
     .footer__title {
         font-size: 14px;
     }
     .footer {
+        padding: 0;
+        height: auto;
         border-top-right-radius: 0px;
         border-top-left-radius: 0px;
         padding-top: 10px;
@@ -426,7 +440,9 @@ text-align: center;
 
 @media (max-width: 700px) {
 
-
+.intro {
+    height: 550px;
+}
     .intro__subtitle2 {
         font-size: 17px;
     }
@@ -458,6 +474,9 @@ text-align: center;
     }
     .features__item{
         height: 170px;
+    }
+    .features__text {
+    font-size: 11px;
     }
     .photo__reviews {
         padding-top: -20px;
@@ -533,7 +552,6 @@ text-align: center;
     }
     .features__text {
         font-size: 10px;
-        line-height: 1.5;
     }
     .works__item {
         height: 70px;
@@ -555,8 +573,14 @@ text-align: center;
         border-top-left-radius: 0px;
         padding-top: 10px;
     }
+    .footer__number {
+        font-size: 15px;
+    }
     }
 @media (max-width: 400px) {
+       .footer__number {
+        font-size: 13px;
+    }
      .intro__subtitle {
             margin-bottom: 10px;
     }
@@ -569,4 +593,10 @@ text-align: center;
     .reviews__text {
     font-size: 12px;
 }
+}
+
+@media (max-width: 340px) {
+       .footer__number {
+        font-size: 10px;
+    }
 }
