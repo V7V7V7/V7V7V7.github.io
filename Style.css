@@ -83,16 +83,18 @@ p {
 
 }
 .number{
+    text-decoration: none;
     text-align: center;
     font-size: 90px;
-    color: aliceblue;
+    color: #00fc3a;
     border: none;
-  animation: blink 400ms alternate infinite;
+  animation: blink 1000ms alternate infinite;
+
 }
 @keyframes blink {
   from {
     opacity: 0.5;
-      color: #ff0000;
+      color: #0000ff;
   }
   to {
     opacity: 1;
