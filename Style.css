@@ -207,6 +207,18 @@ p {
     font-weight: 400;
     margin-bottom: 0;
 }
+.numberanim {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    margin-top:  -40px;
+}
+.number__vizov {
+    text-align: center;
+    font-size:70px;
+    text-decoration: none;
+    color: black;
+}
 
 .intro__title_p2 {
     margin-top: auto;
@@ -377,6 +389,8 @@ text-align: center;
      font-size: 18px;
     font-weight: 600;
     line-height: 0.7;
+    text-decoration: none;
+    color: white;
 }
 /*=========Media===========*/
 
@@ -390,8 +404,14 @@ text-align: center;
     .number{
         font-size: 70px;
     }
+    .numberanim {
+        margin-top: -50px;
+    }
     .reviews__text {
         font-size: 30px;
+    }
+    .features {
+     margin:0;
     }
     .features__item{
         height: 200px;
@@ -417,6 +437,9 @@ text-align: center;
     }
     .nav {
         font-size: 15px;
+    }
+    .works {
+        margin-top: 50px;
     }
     .footer__text {
         font-size: 12px;
@@ -462,6 +485,12 @@ text-align: center;
     .number{
         font-size: 50px;
     }
+      .numberanim {
+       margin-top: -50px;
+    }
+    .number__vizov {
+        font-size: 60px;
+    }
     .nav {
         font-size: 13px;
     }
@@ -482,6 +511,9 @@ text-align: center;
         padding-top: -20px;
         width: 100%;
         height: 200px;
+    }
+     .works {
+        margin-top: 45px;
     }
     .works__item {
         height: 120px;
@@ -518,6 +550,12 @@ text-align: center;
     .number{
         font-size: 30px;
     }
+        .numberanim {
+       margin-top: -55px;
+    }
+    .number__vizov {
+        font-size: 40px;
+    }
     .header__logo {
         height: 15px;
         width: 130px;
@@ -532,6 +570,9 @@ text-align: center;
         text-align: center;
         font-size: 18px;
 
+    }
+       .features {
+    margin-top: -30px;
     }
     .features__title {
         font-size: 10px;
@@ -552,6 +593,9 @@ text-align: center;
     }
     .features__text {
         font-size: 10px;
+    }
+     .works {
+        margin-top: 30px;
     }
     .works__item {
         height: 70px;
@@ -598,5 +642,14 @@ text-align: center;
 @media (max-width: 340px) {
        .footer__number {
         font-size: 10px;
+    }
+         .numberanim {
+       margin-top: -25px;
+    }
+    .number__vizov {
+        font-size: 35px;
+    }
+     .works {
+        margin-top: 45px;
     }
 }
