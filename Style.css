@@ -384,9 +384,10 @@ text-align: center;
 
 .footer__text {
     color: white;
-    line-height: 1.2;
+    line-height: 1.6;
 }
 .footer__number {
+
     padding-bottom: 10px;
      font-size: 18px;
     font-weight: 600;
@@ -445,7 +446,7 @@ text-align: center;
     }
     .footer__text {
         font-size: 12px;
-        line-height: 1.2;
+        line-height: 1.6;
     }
     .footer__title {
         font-size: 14px;
@@ -610,6 +611,7 @@ text-align: center;
     }
     .footer__text {
         font-size: 8px;
+        line-height: 1.8;
     }
     .footer__title {
         font-size: 10px;
