@@ -292,7 +292,8 @@ p {
     top: 50%;
     left: 50%;
     z-index: 1;
-
+    width: 90%;
+    height: 100%;
     transform: translate3d(-50%, -50%, 0);
 }
 
@@ -555,7 +556,7 @@ text-align: center;
        margin-top: 50px;
     }
     .number__vizov {
-        font-size: 40px;
+        font-size: 30px;
     }
     .header__logo {
         height: 15px;
@@ -623,11 +624,18 @@ text-align: center;
     }
     }
 @media (max-width: 400px) {
-       .footer__number {
+
+    .numberanim {
+    margin-top: 70px;
+}
+    .footer__number {
         font-size: 13px;
     }
      .intro__subtitle {
             margin-bottom: 10px;
+    }
+    .works {
+        margin-top: -40px;
     }
     .number{
         font-size: 20px;
@@ -638,6 +646,9 @@ text-align: center;
     .reviews__text {
     font-size: 12px;
 }
+    .number__vizov {
+        font-size: 20px;
+    }
 }
 
 @media (max-width: 340px) {
@@ -645,12 +656,12 @@ text-align: center;
         font-size: 10px;
     }
          .numberanim {
-       margin-top: 85px;
+       margin-top: 110px;
     }
     .number__vizov {
-        font-size: 35px;
+        font-size: 20px;
     }
      .works {
-        margin-top: -30px;
+        margin-top: -50px;
     }
 }
